@@ -1,0 +1,45 @@
+@font-face {
+	font-family: Vermin Vibes;
+	src: url("nalFontvermin.otf");
+}
+html  {
+	width: 19rem;
+	height: 13rem;
+
+	background-color: #0A0B11;
+	color: #b0a04e;
+
+}
+* {
+	font-family: Vermin Vibes;
+}
+h1 {
+	text-align: center;
+}
+#inGameInp {
+	width: 11rem;
+	height: 0.9rem;
+	
+
+}
+input[type=submit] {
+	margin-left: 30%;
+}
+#inGameInp::placeholder {
+	letter-spacing:.25em;
+}
+#inGameInp:focus {
+	outline: none !important;
+}
+h3 {
+	font-size: 1.5em;
+}
+select option {
+	font-family: Arial;
+	font-weight: bold;
+}
+select {
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 22%;
+}
